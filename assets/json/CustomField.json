@@ -1,0 +1,14 @@
+{
+  "CustomFields": {
+    "CustomField1": "{{Ext1}}",
+    "CustomField2": "{         \"Concepto\":\"{{Ext2}}\",         \"Observacion\":\"{{Ext3}}\",         \"Vencimiento\":\"{{Ext4}}\" ,         \"TelefonoPagador\":\"{{Ext5}}\" ,         \"EmailPagador\":\"{{Ext6}}\"  }"
+  },
+  "CustomVariables": {
+    "Ext1": "ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/x:CustomFieldExtension/x:CustomField[@Name='ExternalReference']/@Value",
+    "Ext2": "ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/x:CustomFieldExtension/x:CustomField[@Name='Concepto']/@Value",
+    "Ext3": "ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/x:CustomFieldExtension/x:CustomField[@Name='Observacion']/@Value",
+    "Ext4": "ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/x:CustomFieldExtension/x:CustomField[@Name='vence']/@Value",
+    "Ext5": "ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/x:CustomFieldExtension/x:CustomField[@Name='CustomerPhone_Number']/@Value",
+    "Ext6": "cac:AccountingCustomerParty/cac:Party/cac:Contact/cbc:ElectronicMail"
+  }
+}
